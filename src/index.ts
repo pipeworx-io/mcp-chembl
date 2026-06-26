@@ -29,7 +29,7 @@ const UA = 'pipeworx-mcp-chembl/1.0 (+https://pipeworx.io)';
 const tools: McpToolExport['tools'] = [
   {
     name: 'search',
-    description: 'Search molecules / targets / assays / documents.',
+    description: 'Full-text search the ChEMBL drug-discovery database for molecules, targets, assays, or documents; returns ChEMBL IDs and summary fields you can pass to `molecule`, `target`, or `activities`.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -69,7 +69,7 @@ const tools: McpToolExport['tools'] = [
   },
   {
     name: 'activities',
-    description: 'Activity records — filter by molecule or target.',
+    description: 'Retrieve bioactivity records from ChEMBL filtered by molecule_chembl_id and/or target_chembl_id; returns IC50/Ki/EC50 values, assay descriptions, and units.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -81,7 +81,7 @@ const tools: McpToolExport['tools'] = [
   },
   {
     name: 'drug_indications',
-    description: 'Drug indication records.',
+    description: 'Retrieve approved drug indication records from ChEMBL filtered by molecule_chembl_id and/or MeSH disease ID; returns disease names, efo_id cross-references, and max clinical trial phase.',
     inputSchema: {
       type: 'object',
       properties: {

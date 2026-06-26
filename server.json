@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/chembl",
   "title": "Chembl",
-  "description": "ChEMBL drug discovery DB — molecules, targets, activities (EBI)",
+  "description": "ChEMBL MCP — drug discovery database (EBI).",
   "version": "0.1.0",
   "websiteUrl": "https://pipeworx.io/packs/chembl",
   "repository": {

@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-chembl",
   "version": "0.1.0",
-  "description": "ChEMBL drug discovery DB — molecules, targets, activities (EBI)",
+  "description": "ChEMBL MCP — drug discovery database (EBI).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
