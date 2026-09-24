@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/chembl",
   "title": "Chembl",
   "description": "ChEMBL MCP — drug discovery database (EBI).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/chembl",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-chembl",
