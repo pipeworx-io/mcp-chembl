@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-chembl",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ChEMBL MCP — drug discovery database (EBI).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "chembl",
     "gatewaySlug": "chembl",
-    "sourceHash": "v1-c315de76f60b7381e6cc6cbd23c19f3cb8316a126a5472b0f1b25e470bd74454",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-a0a9c600ad4b5fdf29f924e72363aa25764ea274f60ead100add72e1eaa3f1b7",
+    "sourceCommit": "547a3983b42dacf4389ca474860b0a1dee8e6053"
   }
 }
